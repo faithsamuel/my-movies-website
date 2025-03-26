@@ -1,14 +1,15 @@
-import Movie from "./components/movie"
+import "./App.css";
+import Movie from "./components/Movie"
 
 
 function App() {
   
 
   return (
-    <>
+    <div>
       
        <Movie/>
-    </>
+    </div>
   )
 }
 
