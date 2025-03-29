@@ -1,15 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Nav() {
   return (
     <nav className="text-white p-4 m-4 flex justify-between items-center ">
       {/* Logo */}
-      <div className="text-xl font-bold">🍿MovieSearch</div>
+      <Link to="/" className="text-xl font-bold">🍿MovieSearch</Link>
       
       {/* Links */}
       <div className="flex gap-6">
-        <a href="#" className="hover:text-yellow-500">Home</a>
-        <a href="#" className="hover:text-yellow-500">Favourites</a>
+        <Link to="/" className="hover:text-yellow-500">Home</Link>
+        <Link to="/favorites" className="hover:text-yellow-500">Favorites</Link>
       </div>
     </nav>
   );
