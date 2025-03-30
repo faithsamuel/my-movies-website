@@ -30,8 +30,6 @@ function SearchBar({ onSearch }) {
 
 export default SearchBar
 
-
-
 // import React from 'react'
 
 // function SearchBar() {

@@ -25,8 +25,8 @@ function Movie({ searchTerm }) {
     // If no search term is provided, use a random movie title
     if (!query) {
       const searchTerms = [
-        'Avengers', 'Legally Blonde', 'Catwoman', 'Coming to America', 
-        'Mean Girls', 'Bridget Jones', 'Pretty Woman', 'Batman', 
+        'Avengers', 'Moana', 'Toy Story', 'Coming to America', 
+        'Mean Girls', 'Bridget Jones', 'Cars', 'Batman', 
         'Spider-Man', 'Girls Trip'
       ]
       query = searchTerms[Math.floor(Math.random() * searchTerms.length)]

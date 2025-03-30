@@ -121,6 +121,8 @@ function MovieDetails() {
 
 export default MovieDetails
 
+
+
 // import React, { useState, useEffect } from 'react'
 // import { useParams } from 'react-router-dom'
 
