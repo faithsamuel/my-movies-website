@@ -115,7 +115,7 @@ function Movie({ searchTerm }) {
         </div>
       ))}
     </>
-  )
+  );
 }
 
 export default Movie
