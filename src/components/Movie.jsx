@@ -8,6 +8,7 @@ function Movie({ searchTerm }) {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
   const [favorites, setFavorites] = useState([])
+  // const [page, setPage] = useState(1);
 
   // Load favorites from localStorage on component mount
   useEffect(() => {
@@ -31,6 +32,10 @@ function Movie({ searchTerm }) {
       ]
       query = searchTerms[Math.floor(Math.random() * searchTerms.length)]
     }
+
+    // Update fetch URL with page parameter
+    // fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${query}&type=movie&page=${page}`)
+
 
     fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${query}&type=movie&page=1`)
       .then(response => response.json())
