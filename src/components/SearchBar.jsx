@@ -1,4 +1,13 @@
 import React, { useState } from 'react'
+// import debounce from 'lodash/debounce';
+
+// // Create a debounced search function
+// const debouncedSearch = useCallback(
+//   debounce((searchTerm, callback) => {
+//     callback(searchTerm);
+//   }, 500),
+//   []
+// );
 
 function SearchBar({ onSearch }) {
   const [searchTerm, setSearchTerm] = useState('')
