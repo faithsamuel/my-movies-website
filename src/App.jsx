@@ -1,12 +1,11 @@
 import "./App.css";
+import 'antd/dist/reset.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import HomePage from "./pages/HomePage";
 import FavoritesPage from "./pages/FavoritesPage";
 import MovieDetails from "./components/MovieDetails";
-
-
 
 function App() {
   
