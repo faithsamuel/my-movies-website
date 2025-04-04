@@ -86,7 +86,7 @@ function MovieDetails() {
             <p className="text-lg text-gray-400">⭐ {movie.imdbRating} | {movie.Year}</p>
             <button 
               onClick={toggleFavorite}
-              className={`mt-4 px-4 py-2 rounded-lg text-black flex items-center gap-2 ${isFavorite ? 'bg-red-500' : 'bg-yellow-500'}`}
+              className={`mt-4 px-4 py-2 rounded-lg text-black flex items-center gap-2 ${isFavorite ? 'bg-red-400' : 'bg-yellow-500'}`}
             >
               {isFavorite ? '❤️ Remove from Favorites' : '🤍 Add to Favorites'}
             </button>
