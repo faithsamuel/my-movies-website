@@ -103,15 +103,15 @@ function MovieDetails() {
       {/* Additional Sections */}
       <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6 px-6">
         <div className="p-4 bg-gray-800 rounded-lg shadow-lg">
-          <h3 className="font-bold">Director</h3>
+          <h3 className="font-bold">Director:</h3>
           <p className="text-gray-400">{movie.Director}</p>
         </div>
         <div className="p-4 bg-gray-800 rounded-lg shadow-lg">
-          <h3 className="font-bold">Actors</h3>
+          <h3 className="font-bold">Actors:</h3>
           <p className="text-gray-400">{movie.Actors}</p>
         </div>
         <div className="p-4 bg-gray-800 rounded-lg shadow-lg">
-          <h3 className="font-bold">Genre</h3>
+          <h3 className="font-bold">Genre:</h3>
           <p className="text-gray-400">{movie.Genre}</p>
         </div>
       </div>
