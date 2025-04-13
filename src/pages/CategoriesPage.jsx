@@ -6,10 +6,12 @@ function CategoriesPage() {
       <h1>Categories</h1>
       <ul>
         <li>Adventure</li>
+        <li>Romance</li>
         <li>Comedy</li>
         <li>Horror</li>
-        <li>Science Fiction</li>
-        <li>Westerns</li>
+        <li>Sci-Fi</li>
+        <li>Documentary</li>
+        <li>Animation</li>
       </ul>
     </div>
   )
