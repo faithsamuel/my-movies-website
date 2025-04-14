@@ -12,6 +12,7 @@ function CategoriesPage() {
         <li>Sci-Fi</li>
         <li>Documentary</li>
         <li>Animation</li>
+        <li>Kids & Family</li>
       </ul>
     </div>
   )
