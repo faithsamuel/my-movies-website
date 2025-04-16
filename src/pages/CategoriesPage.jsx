@@ -2,18 +2,21 @@ import React from 'react'
 
 function CategoriesPage() {
   return (
-    <div>
-      <h1>Categories</h1>
-      <ul>
-        <li>Adventure</li>
-        <li>Romance</li>
-        <li>Comedy</li>
-        <li>Horror</li>
-        <li>Sci-Fi</li>
-        <li>Documentary</li>
-        <li>Animation</li>
-        <li>Kids & Family</li>
-      </ul>
+    <div className='categories-container'>
+      <h1>Movie Categories</h1>
+      <div className='genres-list'>
+        <button></button>
+      </div>
+
+      <div className='genre-results'>
+        <h2>Movies</h2>
+
+        <div className='movies-grid'>
+          
+        </div>
+
+
+      </div>
     </div>
   )
 }
